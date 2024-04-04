@@ -12,7 +12,7 @@
 // onject => NaN
 
 // Conversion to a Boolean
-let isAbove = 0
+let isAbove = undefined
 let booledValue = Boolean(isAbove)
 console.log(typeof booledValue)
 console.log(booledValue);
@@ -20,6 +20,7 @@ console.log(booledValue);
 // "filled string" => true
 // "empty string" => false
 // 0 => false; 1 => true
-// 123 => 
-// null => 
-//undefined => 
+// 123 => true
+// null => false
+// undefined => false
+// object => true
