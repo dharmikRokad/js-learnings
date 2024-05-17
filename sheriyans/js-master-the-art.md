@@ -37,6 +37,8 @@
 
 
 
+##
+
 >> arrays and objects are referenced, so when you assign a already assigned value to new one, it's not directly copy that but it will pass the reference of old one to new one.
 >> so whenever you do some changes in new one, old one also be changed.
 >> You can avaoid this using _*spread (...)*_ operator  
@@ -55,7 +57,7 @@
 2. Truthy - statements that will converted into *true*
           - all except *falsy values*         
 
-
+##
 
 >> Functions in js are first class function - you can treat it as a value.
 
