@@ -47,6 +47,8 @@
 
 
 
+
+
 ## Truthy - Falsy
 
 - There are two types of value from where all the written statements are belongs too.
